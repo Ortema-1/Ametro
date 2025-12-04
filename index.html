@@ -172,10 +172,9 @@
       <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4" id="contactForm">
 
         <!-- Web3Forms required -->
-        <input type="hidden" name="access_key" value="12598c2d-b2cd-4d13-aa72-bdc0e195d26a">
+        <input type="hidden" name="access_key" value="2d3a60ad-c59d-4874-be6a-4d282ac42dd8">
         <input type="hidden" name="subject" value="New Ortema website enquiry">
         <input type="hidden" name="from_name" value="Ortema Website">
-        <!-- Optional: where to send user after submit -->
         <input type="hidden" name="redirect" value="https://ortema.co.uk/#contact">
 
         <div>
@@ -243,12 +242,16 @@
         e.preventDefault();
         msg.textContent = "Oops — please answer the quick check correctly.";
         msg.classList.add("text-red-400");
-        setTimeout(() => { msg.textContent = ""; msg.classList.remove("text-red-400"); }, 4000);
+        setTimeout(() => {
+          msg.textContent = "";
+          msg.classList.remove("text-red-400");
+        }, 4000);
       }
     });
   })();
 </script>
 
+  
 
   <!-- Footer -->
   <footer class="bg-black/90 py-8 border-t border-white/10">
