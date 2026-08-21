@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ortema Continuity — Software Change Desk</title>
+    <link>https://ortema.co.uk/continuity/</link>
+    <description>Selected, source-led incident briefs on software changes that can affect business operations.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 21 Aug 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ortema.co.uk/continuity/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vimeo On Demand: confirmed shutdown timeline</title>
+      <link>https://ortema.co.uk/continuity/incidents/vimeo-vod-shutdown-2026/</link>
+      <guid isPermaLink="true">https://ortema.co.uk/continuity/incidents/vimeo-vod-shutdown-2026/</guid>
+      <pubDate>Fri, 21 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Vimeo's official shutdown dates, seller export position and viewer-access limits.</description>
+    </item>
+    <item>
+      <title>Harvest: ownership, published pricing and migration limits</title>
+      <link>https://ortema.co.uk/continuity/incidents/harvest-2026/</link>
+      <guid isPermaLink="true">https://ortema.co.uk/continuity/incidents/harvest-2026/</guid>
+      <pubDate>Fri, 21 Aug 2026 11:30:00 GMT</pubDate>
+      <description>Harvest's current published pricing structure, export routes and a documented example of migration limits.</description>
+    </item>
+    <item>
+      <title>Convictional: platform access scheduled to end 27 August</title>
+      <link>https://ortema.co.uk/continuity/incidents/convictional-shutdown-2026/</link>
+      <guid isPermaLink="true">https://ortema.co.uk/continuity/incidents/convictional-shutdown-2026/</guid>
+      <pubDate>Fri, 21 Aug 2026 11:00:00 GMT</pubDate>
+      <description>Convictional's published shutdown deadline, export route and stated data-deletion timetable.</description>
+    </item>
+    <item>
+      <title>Thinkific: selected plan prices increased from 13 August</title>
+      <link>https://ortema.co.uk/continuity/incidents/thinkific-pricing-2026/</link>
+      <guid isPermaLink="true">https://ortema.co.uk/continuity/incidents/thinkific-pricing-2026/</guid>
+      <pubDate>Fri, 21 Aug 2026 10:30:00 GMT</pubDate>
+      <description>Thinkific's published August 2026 pricing update for selected plans, including timing and exclusions.</description>
+    </item>
+  </channel>
+</rss>
