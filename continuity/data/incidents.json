@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "generated_for": "Ortema Continuity public release",
+  "last_updated": "2026-08-21",
+  "incidents": [
+    {
+      "id": "harvest-2026",
+      "vendor": "Harvest",
+      "categories": [
+        "pricing",
+        "ownership",
+        "data-portability"
+      ],
+      "status": "confirmed_change",
+      "impact_scope": "varies_by_account",
+      "detected_date": "2026-08-20",
+      "confirmed_date": "2026-08-21",
+      "last_verified": "2026-08-21",
+      "headline": "Harvest: ownership and current pricing structure",
+      "summary": "Harvest was acquired by Bending Spoons in July 2025. Its current public pricing states that usage beyond base seat charges can apply to invoices, projects, clients and tasks.",
+      "unknowns": [
+        "Individual customer contract and legacy-plan treatment",
+        "Account-specific usage and renewal quote",
+        "Whether any particular customer should change products"
+      ],
+      "sources": [
+        {
+          "type": "primary",
+          "label": "Bending Spoons 2026 prospectus",
+          "url": "https://bendingspoons.com/documents/financials/2026/Bending%20Spoons%20Final%20Prospectus%20As%20Filed.pdf"
+        },
+        {
+          "type": "primary",
+          "label": "Harvest pricing",
+          "url": "https://www.getharvest.com/pricing"
+        },
+        {
+          "type": "primary",
+          "label": "Harvest exporting data",
+          "url": "https://support.getharvest.com/hc/en-us/articles/31625325401229-Exporting-data"
+        },
+        {
+          "type": "destination_vendor",
+          "label": "Toggl Harvest importer documentation",
+          "url": "https://support.toggl.com/en-us/article/importing-data-from-other-apps-into-toggl-track-ysio3g/"
+        }
+      ],
+      "public_path": "/continuity/incidents/harvest-2026/"
+    },
+    {
+      "id": "convictional-shutdown-2026",
+      "vendor": "Convictional",
+      "categories": [
+        "shutdown",
+        "data-portability"
+      ],
+      "status": "deadline_confirmed",
+      "impact_scope": "platform_wide",
+      "detected_date": "2026-08-21",
+      "confirmed_date": "2026-08-21",
+      "last_verified": "2026-08-21",
+      "headline": "Convictional: platform access scheduled to end 27 August 2026",
+      "summary": "Convictional says platform access ends on 27 August 2026 and remaining customer data is deleted after servers go offline on 28 August.",
+      "unknowns": [
+        "Whether an individual export contains every record a particular organisation needs",
+        "Organisation-specific contractual or retention requirements"
+      ],
+      "sources": [
+        {
+          "type": "primary",
+          "label": "Convictional shutdown FAQ",
+          "url": "https://guides.convictional.com/support/shutdown-faq/"
+        }
+      ],
+      "public_path": "/continuity/incidents/convictional-shutdown-2026/"
+    },
+    {
+      "id": "thinkific-pricing-2026",
+      "vendor": "Thinkific",
+      "categories": [
+        "pricing"
+      ],
+      "status": "confirmed_change",
+      "impact_scope": "varies_by_plan_and_billing_cycle",
+      "detected_date": "2026-08-21",
+      "confirmed_date": "2026-08-21",
+      "last_verified": "2026-08-21",
+      "headline": "Thinkific: selected plan prices increased from 13 August 2026",
+      "summary": "Thinkific says selected plans increased in price by approximately 10%, with timing and exclusions depending on plan, billing cycle and account status.",
+      "unknowns": [
+        "Individual account discounts and tax treatment",
+        "Reader-specific next charge"
+      ],
+      "sources": [
+        {
+          "type": "primary",
+          "label": "Thinkific 2026 Plan Pricing Update",
+          "url": "https://support.thinkific.com/hc/en-us/articles/41582716364567-Thinkific-s-2026-Plan-Pricing-Update-What-It-Means-for-You"
+        }
+      ],
+      "public_path": "/continuity/incidents/thinkific-pricing-2026/"
+    },
+    {
+      "id": "airtable-acquisition-2026",
+      "vendor": "Airtable",
+      "categories": [
+        "ownership"
+      ],
+      "status": "watching",
+      "impact_scope": "no_customer_impact_established",
+      "detected_date": "2026-08-04",
+      "confirmed_date": "2026-08-21",
+      "last_verified": "2026-08-21",
+      "headline": "Airtable: Bending Spoons has agreed to acquire the company",
+      "summary": "A definitive acquisition agreement was announced on 4 August 2026. The deal is subject to closing conditions and approvals, and the companies say they continue to operate independently until closing.",
+      "unknowns": [
+        "Whether pricing will change",
+        "Whether product access or roadmap will change",
+        "Whether export, API or portability terms will change"
+      ],
+      "sources": [
+        {
+          "type": "primary",
+          "label": "Bending Spoons Airtable acquisition announcement",
+          "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-agrees-to-acquire-airtable"
+        }
+      ],
+      "public_path": "/continuity/incidents/airtable-acquisition-2026/"
+    },
+    {
+      "id": "vimeo-vod-shutdown-2026",
+      "vendor": "Vimeo On Demand",
+      "categories": [
+        "shutdown",
+        "data-portability",
+        "video-commerce"
+      ],
+      "status": "deadline_confirmed",
+      "impact_scope": "vimeo_on_demand_only",
+      "detected_date": "2026-07-07",
+      "confirmed_date": "2026-07-07",
+      "last_verified": "2026-08-21",
+      "headline": "Vimeo On Demand: confirmed shutdown timeline",
+      "summary": "Vimeo says Vimeo On Demand will fully shut down on 20 November 2026, with new uploads disabled from 22 August and purchases/subscriptions disabled from 21 September.",
+      "unknowns": [
+        "Suitability of any replacement service for an individual seller",
+        "Account-specific contractual, refund, tax or rights questions"
+      ],
+      "sources": [
+        {
+          "type": "primary",
+          "label": "Vimeo On Demand shutdown notice",
+          "url": "https://vimeo.com/ondemand/shutdown"
+        },
+        {
+          "type": "primary",
+          "label": "Vimeo On Demand seller FAQ",
+          "url": "https://vimeo.com/ondemand/faq/sellers"
+        },
+        {
+          "type": "primary",
+          "label": "Vimeo On Demand viewer FAQ",
+          "url": "https://vimeo.com/ondemand/faq/viewers"
+        }
+      ],
+      "public_path": "/continuity/incidents/vimeo-vod-shutdown-2026/"
+    }
+  ]
+}

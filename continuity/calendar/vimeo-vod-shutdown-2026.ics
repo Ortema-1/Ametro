@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ORTEMA LTD//Ortema Continuity//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Vimeo On Demand shutdown dates
+X-WR-CALDESC:Dates published by Vimeo and compiled by Ortema Continuity. Verify changes against Vimeo's official notice.
+BEGIN:VEVENT
+UID:vimeo-vod-uploads-20260822@ortema.co.uk
+DTSTAMP:20260821T120000Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Vimeo On Demand: new uploads disabled
+DESCRIPTION:Vimeo's published milestone for disabling new VOD uploads. Verify the current position at https://vimeo.com/ondemand/shutdown
+URL:https://vimeo.com/ondemand/shutdown
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vimeo-vod-purchases-20260921@ortema.co.uk
+DTSTAMP:20260821T120000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Vimeo On Demand: new purchases and subscriptions disabled
+DESCRIPTION:Vimeo's published milestone for disabling new VOD purchases and subscriptions. Verify the current position at https://vimeo.com/ondemand/shutdown
+URL:https://vimeo.com/ondemand/shutdown
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vimeo-vod-payouts-20261021@ortema.co.uk
+DTSTAMP:20260821T120000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Vimeo On Demand: final seller payouts expected
+DESCRIPTION:Vimeo says final eligible seller payouts are expected to be completed by this date. Verify account-specific questions with Vimeo and the current notice at https://vimeo.com/ondemand/shutdown
+URL:https://vimeo.com/ondemand/shutdown
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vimeo-vod-shutdown-20261120@ortema.co.uk
+DTSTAMP:20260821T120000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Vimeo On Demand: full shutdown and viewer access ends
+DESCRIPTION:Vimeo's published full-shutdown date for VOD storefronts and viewer access. Verify the current position at https://vimeo.com/ondemand/shutdown
+URL:https://vimeo.com/ondemand/shutdown
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

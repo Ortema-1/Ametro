@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ortema.co.uk/</loc>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://ortema.co.uk/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/incidents/vimeo-vod-shutdown-2026/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/incidents/harvest-2026/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/incidents/convictional-shutdown-2026/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/incidents/thinkific-pricing-2026/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/methodology/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/corrections/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://ortema.co.uk/continuity/privacy/</loc><lastmod>2026-08-21</lastmod></url>
 </urlset>
