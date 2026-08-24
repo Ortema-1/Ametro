@@ -3,26 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ORTEMA — Building Useful Technology</title>
-  <meta name="description" content="ORTEMA is an independent UK technology company building useful software, AI, robotics and intelligent systems from idea to working prototype.">
-  <meta name="theme-color" content="#0b0d10">
-  <meta property="og:title" content="ORTEMA — Building Useful Technology">
-  <meta property="og:description" content="Building useful technology, wherever the problem leads.">
+
+  <title>ORTEMA — Independent Technology Company</title>
+  <meta name="description" content="ORTEMA is an independent UK technology company building software, intelligent systems and experimental technology.">
+  <meta name="theme-color" content="#0b1518">
+
+  <meta property="og:title" content="ORTEMA">
+  <meta property="og:description" content="Building useful technology.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ortema.co.uk/">
   <meta property="og:image" content="https://ortema.co.uk/assets/ortema-social-card.png">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://ortema.co.uk/assets/ortema-social-card.png">
+
   <link rel="canonical" href="https://ortema.co.uk/">
-  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/site.css">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "ORTEMA LTD",
-    "url": "https://ortema.co.uk/",
     "legalName": "ORTEMA LTD",
+    "url": "https://ortema.co.uk/",
     "identifier": "15099115",
     "address": {
       "@type": "PostalAddress",
@@ -34,157 +39,146 @@
   }
   </script>
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#top" aria-label="ORTEMA home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-word">ORTEMA</span></a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#about">About</a>
-        <a href="./continuity/">Continuity</a>
-        <a href="#contact" class="nav-cta">Contact</a>
-      </nav>
+  <div class="menu-overlay" id="menu-overlay" aria-hidden="true">
+    <button class="menu-close" id="menu-close" type="button" aria-label="Close menu">
+      <span></span><span></span>
+    </button>
+
+    <nav class="menu-nav" aria-label="Expanded navigation">
+      <a href="#work">Work <span>01</span></a>
+      <a href="#work">Work <span>02</span></a>
+      <a href="./continuity/">Continuity <span>03</span></a>
+      <a href="#" data-contact>Contact <span>04</span></a>
+    </nav>
+
+    <div class="menu-meta">
+      <span>ORTEMA LTD</span>
+      <span>London · United Kingdom</span>
     </div>
+  </div>
+
+  <header class="site-header">
+    <button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-controls="menu-overlay" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <a class="wordmark" href="/" aria-label="ORTEMA home">
+      <span class="brand-mark" aria-hidden="true">
+        <span class="brand-mark-core"></span>
+      </span>
+      <span class="wordmark-name">ORTEMA</span>
+    </a>
+
+    <a class="header-link" href="./continuity/">
+      CONTINUITY <span aria-hidden="true">↗</span>
+    </a>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Independent UK technology company</span>
-          <h1>Building useful technology,<br><span>wherever the problem leads.</span></h1>
-          <p class="hero-lede">ORTEMA explores, prototypes and develops software, AI, robotics, intelligent systems and new digital products. We start with the problem, then use the technology that actually fits.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#work">Explore our work</a>
-            <a class="button ghost" href="#contact">Start a conversation</a>
-          </div>
+    <section class="hero" aria-label="ORTEMA introduction">
+      <div class="hero-emblem hero-emblem-shadow hero-emblem-shadow-far" aria-hidden="true">
+        <span class="hero-emblem-outer"></span>
+        <span class="hero-emblem-inner"></span>
+        <span class="hero-emblem-tail"></span>
+      </div>
+
+      <div class="hero-emblem hero-emblem-shadow hero-emblem-shadow-near" aria-hidden="true">
+        <span class="hero-emblem-outer"></span>
+        <span class="hero-emblem-inner"></span>
+        <span class="hero-emblem-tail"></span>
+      </div>
+
+      <div class="hero-emblem" aria-hidden="true">
+        <span class="hero-emblem-outer"></span>
+        <span class="hero-emblem-inner"></span>
+        <span class="hero-emblem-tail"></span>
+      </div>
+
+      <div class="hero-message" aria-live="polite">
+        <div class="hero-line" id="hero-line">
+          <strong>USEFUL</strong>
+          <span>TECHNOLOGY</span>
         </div>
-        <aside class="hero-panel" aria-label="ORTEMA focus">
-          <span class="panel-kicker">How we think</span>
-          <p class="panel-quote">Find a real problem. Build the smallest useful thing. Test it in the real world. Keep what works.</p>
-          <div class="signal-row"><span>Software</span><span>AI</span><span>Robotics</span><span>R&amp;D</span></div>
-        </aside>
+
+        <div class="hero-dots" id="hero-dots" aria-label="Message 1 of 3">
+          <button class="is-active" type="button" aria-label="Show message 1" data-slide="0"></button>
+          <button type="button" aria-label="Show message 2" data-slide="1"></button>
+          <button type="button" aria-label="Show message 3" data-slide="2"></button>
+        </div>
+      </div>
+
+      <div class="hero-caption">
+        <p class="hero-caption-title">INDEPENDENT TECHNOLOGY COMPANY</p>
+        <p class="hero-caption-copy">
+          We build software, intelligent systems and experimental technology.
+        </p>
+        <a href="#work" class="text-link">
+          <span class="text-link-rule"></span>
+          VIEW OUR WORK
+        </a>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">
+        <span id="hero-index-current">01</span>
+        <span class="hero-index-line"></span>
+        <span>03</span>
       </div>
     </section>
 
-    <section class="section" id="work">
-      <div class="section-head">
-        <span class="eyebrow">Current work</span>
-        <h2>Different problems. One way of building.</h2>
-        <p>ORTEMA is deliberately broad. Some projects become tools, some become products, and some are experiments that teach us where the next opportunity is.</p>
+    <section class="work" id="work">
+      <div class="work-heading">
+        <span>SELECTED WORK</span>
+        <span>2026</span>
       </div>
 
-      <div class="work-grid">
-        <article class="work-card work-card-large">
-          <div class="work-meta"><span>Product experiment</span><span>2026</span></div>
-          <h3>Software continuity intelligence</h3>
-          <p>Exploring how businesses can understand significant software changes, preserve optionality and respond with better evidence when vendors change pricing, ownership or product direction.</p>
-          <ul class="chip-list"><li>Public-source monitoring</li><li>Decision tooling</li><li>Privacy-first design</li></ul>
-          <div class="work-note">Public-source software change intelligence. No customer data required.</div>
-          <a class="work-link" href="./continuity/">Open Ortema Continuity <span aria-hidden="true">→</span></a>
-        </article>
+      <a class="work-row" href="./continuity/">
+        <span class="work-number">01</span>
+        <div class="work-title">
+          <strong>Continuity</strong>
+          <span>Software change intelligence</span>
+        </div>
+        <span class="work-arrow" aria-hidden="true">↗</span>
+      </a>
 
-        <article class="work-card">
-          <div class="work-meta"><span>Applied AI</span><span>Vision</span></div>
-          <h3>Visual inspection &amp; perception</h3>
-          <p>Computer-vision systems for detecting, tracking and understanding activity in real-world video and industrial environments.</p>
-          <ul class="chip-list"><li>Machine vision</li><li>Edge inference</li><li>Automation</li></ul>
-        </article>
+      <div class="work-row work-row-static">
+        <span class="work-number">02</span>
+        <div class="work-title">
+          <strong>Vision</strong>
+          <span>Machine perception &amp; inspection</span>
+        </div>
+        <span class="work-status">IN DEVELOPMENT</span>
+      </div>
 
-        <article class="work-card">
-          <div class="work-meta"><span>Experimental technology</span><span>Interfaces</span></div>
-          <h3>New interaction ideas</h3>
-          <p>Small apps and experimental interfaces that test unusual ways for people to interact with software, devices and intelligent systems.</p>
-          <ul class="chip-list"><li>Apps</li><li>Audio &amp; signals</li><li>Rapid prototyping</li></ul>
-        </article>
+      <div class="work-row work-row-static">
+        <span class="work-number">03</span>
+        <div class="work-title">
+          <strong>Experiments</strong>
+          <span>Applied research &amp; prototypes</span>
+        </div>
+        <span class="work-status">ONGOING</span>
       </div>
     </section>
 
-    <section class="section section-contrast" id="capabilities">
-      <div class="section-head compact">
-        <span class="eyebrow">Capabilities</span>
-        <h2>Technology is a toolkit, not the identity.</h2>
-      </div>
-      <div class="cap-grid">
-        <article><span class="cap-number">01</span><h3>Software &amp; Apps</h3><p>Purpose-built web, desktop and mobile software, prototypes, integrations and internal tools.</p></article>
-        <article><span class="cap-number">02</span><h3>AI &amp; Automation</h3><p>Applied machine learning, local AI, intelligent workflows and automation where they create measurable utility.</p></article>
-        <article><span class="cap-number">03</span><h3>Robotics &amp; Vision</h3><p>Machine vision, perception, sensors, embedded systems and robotics prototyping for physical-world problems.</p></article>
-        <article><span class="cap-number">04</span><h3>Applied R&amp;D</h3><p>Fast technical exploration when the right product or implementation is not obvious yet.</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="about-grid">
-        <div>
-          <span class="eyebrow">About ORTEMA</span>
-          <h2>Small enough to move quickly.</h2>
-        </div>
-        <div class="about-copy">
-          <p>ORTEMA LTD is an independent technology company based in the United Kingdom. We build and test practical technology across software, artificial intelligence, robotics and related emerging fields.</p>
-          <p>We do not force every problem into the same technology stack. The aim is simple: identify useful opportunities, make working things quickly, learn from real use, and develop the ideas that earn the right to go further.</p>
-          <div class="principles">
-            <div><strong>Useful first</strong><span>Technology should solve something real.</span></div>
-            <div><strong>Prototype early</strong><span>Evidence beats long speculative builds.</span></div>
-            <div><strong>Stay flexible</strong><span>Software, AI and hardware can mix when needed.</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-shell">
-        <div class="contact-copy">
-          <span class="eyebrow">Contact</span>
-          <h2>Have a problem worth exploring?</h2>
-          <p>Tell us what you are trying to build, improve or understand. A short description is enough to start.</p>
-          <p class="privacy-note">Please do not send passwords, API keys, confidential datasets or other sensitive information through this form.</p>
-        </div>
-
-        <form class="contact-form" id="contact-form" novalidate>
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" autocomplete="name" required>
-          </div>
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="form-row">
-            <label for="message">What are you working on?</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <div class="form-actions">
-            <button class="button primary" type="submit">Open email draft</button>
-            <span class="form-status" id="form-status" role="status"></span>
-          </div>
-          <p class="form-help">Nothing is submitted through this page. The button opens a draft in your own email application, where you can review it before sending.</p>
-        </form>
-      </div>
+    <section class="contact">
+      <p class="contact-kicker">A PROBLEM WORTH EXPLORING?</p>
+      <a class="contact-link" href="#" data-contact>Talk to ORTEMA <span>↗</span></a>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-main">
-      <div class="footer-brand">
-        <a href="#top" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-word">ORTEMA</span></a>
-        <p>Building useful technology.</p>
-      </div>
-      <div class="footer-links">
-        <a href="#work">Work</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#about">About</a>
-        <a href="./continuity/">Continuity</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-    <div class="footer-legal">
+    <div>
       <span>© <span id="year">2026</span> ORTEMA LTD</span>
-      <span>Company no. 15099115</span>
+      <span>Company No. 15099115</span>
+    </div>
+
+    <div>
       <span>Registered in England and Wales</span>
-      <span>Registered office: 20 Wenlock Road, London, N1 7GU</span>
+      <span>20 Wenlock Road, London, N1 7GU</span>
     </div>
   </footer>
 
